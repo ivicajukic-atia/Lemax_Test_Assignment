@@ -111,4 +111,4 @@ In Program.cs, health checks are configured to monitor the application's health 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/ivicajukic-atia/Lemax_Test_Assignment.git
