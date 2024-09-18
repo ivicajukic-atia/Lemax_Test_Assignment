@@ -94,12 +94,13 @@ The service is built using ASP.NET Core with C#, leveraging AutoMapper for objec
 ## HealthChecks
 
 In Program.cs, health checks are configured to monitor the application's health status
--**Self Check:** A basic health check to ensure the service is running.
--**Additional Checks:** Other health checks can be added as needed, such as database connectivity checks.
+- **Self Check:** A basic health check to ensure the service is running.
+- **Additional Checks:** Other health checks can be added as needed (such as database connectivity checks).
 
 ## Middleware Configuration
--**DummyAuthMiddleware::** Simulates authentication for testing purposes.
--**GlobalExceptionHandlingMiddleware::** Handles unhandled exceptions, logs errors, and provides a standardized JSON error response.
+
+- **DummyAuthMiddleware::** Simulates authentication for testing purposes.
+- **GlobalExceptionHandlingMiddleware::** Handles unhandled exceptions, logs errors, and provides a standardized JSON error response.
 
 ## Testing
 - **TestData.cs:**  This file includes sample hotel data for use in unit tests.
