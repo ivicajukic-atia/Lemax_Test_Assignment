@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 public class DummyAuthHandler : AuthenticationHandler<AuthenticationSchemeOptions>
 {
-  public DummyAuthHandler(IOptionsMonitor<AuthenticationSchemeOptions> options,
-                          ILoggerFactory logger,
-                          UrlEncoder encoder,
-                          ISystemClock clock)
-      : base(options, logger, encoder, clock)
+  public DummyAuthHandler(
+      IOptionsMonitor<AuthenticationSchemeOptions> options,
+      ILoggerFactory logger,
+      UrlEncoder encoder)
+      : base(options, logger, encoder)
   {
   }
 
