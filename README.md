@@ -99,8 +99,8 @@ In Program.cs, health checks are configured to monitor the application's health 
 
 ## Middleware Configuration
 
-- **DummyAuthMiddleware::** Simulates authentication for testing purposes.
-- **GlobalExceptionHandlingMiddleware::** Handles unhandled exceptions, logs errors, and provides a standardized JSON error response.
+- **DummyAuthMiddleware:** Simulates authentication for testing purposes.
+- **GlobalExceptionHandlingMiddleware:** Handles unhandled exceptions, logs errors, and provides a standardized JSON error response.
 
 ## Testing
 - **TestData.cs:**  This file includes sample hotel data for use in unit tests.
